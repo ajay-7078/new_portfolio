@@ -165,6 +165,7 @@ h1 {
 
 .about-section {
   padding: 80px;
+  background-color: #ffffff;
 }
 
 .about-title {
@@ -180,7 +181,7 @@ h1 {
 }
 
 .card {
-  background: #0c0c0c;
+  background: #f5f5f5;
   padding: 20px;
   border-radius: 18px;
   transition: 0.4s ease;
@@ -202,7 +203,7 @@ h1 {
 }
 
 .about-card p {
-  color: #cfcfcf;
+  color: #333;
   line-height: 1.7;
 }
 
@@ -444,21 +445,22 @@ h1 {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 220px);
   gap: 20px;
-   background: #0e0e0e;
-  padding: 40px;
-  color: #fff;
+  background: #ffffff;
+  padding: 80px 40px 40px 40px;
+  color: #333;
 }
 
 /* Card */
 .bento {
-  background: #1a1a1a;
+  background: #f5f5f5;
   border-radius: 18px;
   overflow: hidden;
   transition: 0.3s ease;
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  color: inherit;
+  color: #333;
+  border: 1px solid #e0e0e0;
 }
 
 .bento:hover {
@@ -494,7 +496,8 @@ h1 {
 
 .content p {
   font-size: 13px;
-  opacity: 0.8;
+  opacity: 0.7;
+  color: #666;
 }
 
 /* Bento sizes */
@@ -515,9 +518,10 @@ h1 {
 }
  .pro-title {
   text-align: center;
-  font-size: 42px;
-  color: #ffffff;
-  margin-bottom: 60px;
+  font-size: 2.5rem;
+  color: #070707;
+  margin-bottom: 10px;
+  grid-column: 1 / -1;
 }
 
 /* Responsive */
@@ -537,16 +541,16 @@ h1 {
 
 /* contact us */
 .contant-sec {
-  background-color: #000;
+  background-color: #ffffff;
   padding: 80px;
   margin-bottom: 0;
   margin-top: 0;
-  border-top: 2px solid #facc15;
+  border-top: 2px solid #333;
 }
 .contant-title {
   text-align: center;
   font-size: 42px;
-  color: #ffffff;
+  color: #333;
   margin-bottom: 60px;
 }
 .contant-wrapper {
@@ -579,7 +583,7 @@ form button {
   margin-bottom: 15px;
 }
 .contact-info p {
-  color: #cfcfcf;
+  color: #252424;
   line-height: 1.7;
 }
 .contact-info li {
@@ -617,7 +621,7 @@ form button {
   color: #0b0b0b;
   margin-top: 0;
   padding: 20px;
-  border-top: 2px solid #facc15;
+  border-top: 2px solid #333;
 }   
 .footer-sec p {
   margin: 0;
